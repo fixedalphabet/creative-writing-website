@@ -5,4 +5,5 @@ from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse("Welcome to the home page, this is where stories will eventually show up.")
+    data = {'text': "This is now shown."}
+    return render(request, 'frontpage/homepage.html', data)
