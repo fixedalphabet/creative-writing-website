@@ -1,11 +1,18 @@
-
-
 {% extends 'frontpage/header.html' %}
 {% load static %}
+{% load tz %}
 
 {% block content %}
     <link rel="stylesheet" type="text/css" href="{% static 'frontpage/style.css' %}">
     <h1> Home of Creative Writing Club </h1>
-    {{ text }}
+
+    <h3>Updates:</h3>
+    {% for post in postList %}
+        <div class="post">
+            <b>{{ post.title }}</b> - {{ post.date_uploaded|localtime }}
+
+            <p>{{ post.content }}</p>
+        </div>
+    {% endfor %}
 
 {% endblock %}
