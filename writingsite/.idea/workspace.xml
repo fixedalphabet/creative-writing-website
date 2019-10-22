@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e0b0d4d-00c4-413e-b335-4c64a048c23d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontpage/migrations/0003_auto_20191022_1359.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submissions/migrations/0002_comment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submissions/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/submissions/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submissions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/submissions/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontpage/templates/frontpage/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontpage/templates/frontpage/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontpage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontpage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/writingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/writingsite/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +54,9 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -144,7 +145,7 @@
       <workItem from="1569968890102" duration="3016000" />
       <workItem from="1571680895473" duration="73000" />
       <workItem from="1571681648243" duration="91000" />
-      <workItem from="1571770182295" duration="929000" />
+      <workItem from="1571770182295" duration="3876000" />
     </task>
     <task id="LOCAL-00001" summary="Added models to admin">
       <created>1569968456814</created>
