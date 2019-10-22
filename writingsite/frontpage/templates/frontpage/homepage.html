@@ -22,7 +22,7 @@
 
     <h3>Updates:</h3>
     {% for post in postList %}
-        <div>
+        <div class="post">
             <b>{{ post.title }}</b> - {{ post.date_uploaded|localtime }}
 
             <p>{{ post.content }}</p>

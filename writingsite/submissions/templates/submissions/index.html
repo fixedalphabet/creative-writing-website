@@ -1,0 +1,13 @@
+{% extends 'submissions/header.html' %}
+{% load static %}
+{% load tz %}
+
+{% block content %}
+
+    This is the page that should show a list of writings.
+
+    {% for writing in writingList %}
+        <h2>{{ writing.title }}</h2>
+    {% endfor %}
+
+{% endblock %}
