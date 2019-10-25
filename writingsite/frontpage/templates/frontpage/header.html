@@ -3,9 +3,17 @@
 <link rel="stylesheet" type="text/css" href="{% static 'frontpage/style.css' %}">
 
 <div class="header">
-    <span><a href="{% url 'index' %}">Home</a>
-{#    <a href="{% url '' %}">Link 1</a>#}
-{#    <a href="{% url '' %}">Link 2</a>#}
+
+    <h1 style="margin: 20px 0 0 0; display: inline-block">Creative Writing Techniques</h1>
+    <ul style="display: inline-block">
+
+        <li>
+            <a href="{% url 'index' %}">Home</a>
+        </li>
+        {#    <a href="{% url '' %}">Link 1</a>#}
+        {#    <a href="{% url '' %}">Link 2</a>#}
+        {#    <a href="{% url '' %}">Link 3</a>#}
+    </ul>
     {% if user.is_authenticated %}
   <a href="{% url 'logout' %}">Logout</a>
 {% else %}

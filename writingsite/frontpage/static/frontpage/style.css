@@ -7,28 +7,48 @@
   left: 0;
   background-color: black;
   overflow-x: hidden;
-  padding-left: 20px;
+  padding-left: 5%;
+  color: green;
 }
 
 .header a {
   padding: 12px 8px 12px 16px;
   text-decoration: none;
   font-size: 18px;
+  display: inline;
+}
+
+.header li{
+  display:inline-block;
+  text-decoration:none;
+}
+
+.header a:visited{
   color: green;
-  display: block;
 }
 
 .header a:hover {
-    color: white;
+  color: white;
 }
 
 .main {
-  margin-top: 75px; /* Same as the width of the sidenav */
+  margin-top: 75px; /* Same as the height of the header */
   font-size: 16px;
   padding: 10px;
 }
 
+.feed{
+  margin-left: 5%;
+  width: 50%;
+  display: inline-block;
+}
+
+.sidebar{
+  width:40%;
+  float: right;
+}
+
 .post{
   border: 2px solid black;
-  margin: auto;
+  margin: 10px 10px 10px 10px;
 }
