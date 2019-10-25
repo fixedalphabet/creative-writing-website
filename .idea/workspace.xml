@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a9d8ccd-0cb3-46d8-a0ad-97689dd8d4b2" name="Default Changelist" comment="">
+    <list default="true" id="0a9d8ccd-0cb3-46d8-a0ad-97689dd8d4b2" name="Default Changelist" comment="Added the login page, need to implement logging in and out onto the frontpage.">
+      <change afterPath="$PROJECT_DIR$/writingsite/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writingsite/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writingsite/templates/registration/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writingsite/templates/registration/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writingsite/templates/registration/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writingsite/templates/registration/password_reset_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/writingsite/templates/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writingsite/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/writingsite/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writingsite/templates/registration/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/writingsite/templates/registration/password_reset_complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/writingsite/frontpage/templates/frontpage/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/writingsite/frontpage/templates/frontpage/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/writingsite/writingsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/writingsite/writingsite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/writingsite/writingsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/writingsite/writingsite/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +77,7 @@
       <workItem from="1569966907513" duration="3694000" />
       <workItem from="1569971296948" duration="543000" />
       <workItem from="1571770118027" duration="7381000" />
-      <workItem from="1572027623355" duration="10230000" />
+      <workItem from="1572027623355" duration="7996000" />
     </task>
     <task id="LOCAL-00001" summary="Added the login page, need to implement logging in and out onto the frontpage.">
       <created>1571775972972</created>
@@ -78,21 +86,7 @@
       <option name="project" value="LOCAL" />
       <updated>1571775972972</updated>
     </task>
-    <task id="LOCAL-00002" summary="This should be all the password reset and registration stuff.">
-      <created>1572040213102</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1572040213102</updated>
-    </task>
-    <task id="LOCAL-00003" summary="This should be all the password reset and registration stuff.">
-      <created>1572040389889</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1572040389889</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +107,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added the login page, need to implement logging in and out onto the frontpage." />
-    <MESSAGE value="This should be all the password reset and registration stuff." />
-    <option name="LAST_COMMIT_MESSAGE" value="This should be all the password reset and registration stuff." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the login page, need to implement logging in and out onto the frontpage." />
   </component>
 </project>
