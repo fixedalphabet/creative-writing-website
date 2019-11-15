@@ -1,11 +1,8 @@
 {% extends 'frontpage/header.html' %}
 
 {% block content %}
-
-    This is the page that should show a list of writings.
-
     {% for writing in writingList %}
-        <h2>{{ writing.title }}</h2>
+        <h2><a href="{% url 'submissions/view' submission_id=writing.id %}">{{ writing.title }}</h2>
     {% endfor %}
 
 {% endblock %}

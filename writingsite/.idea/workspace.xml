@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e0b0d4d-00c4-413e-b335-4c64a048c23d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submissions/migrations/0004_auto_20191025_1759.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submissions/templates/submissions/view.html" afterDir="false" />
+    <list default="true" id="8e0b0d4d-00c4-413e-b335-4c64a048c23d" name="Default Changelist" comment="added view submission page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submissions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/submissions/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontpage/static/frontpage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontpage/static/frontpage/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontpage/templates/frontpage/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontpage/templates/frontpage/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontpage/templates/frontpage/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontpage/templates/frontpage/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontpage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontpage/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/submissions/templates/submissions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/submissions/templates/submissions/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submissions/templates/submissions/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/submissions/templates/submissions/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/submissions/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/submissions/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/submissions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/submissions/views.py" afterDir="false" />
     </list>
@@ -152,6 +153,8 @@
       <workItem from="1571770182295" duration="5788000" />
       <workItem from="1571777833937" duration="261000" />
       <workItem from="1572037317677" duration="2320000" />
+      <workItem from="1572050186206" duration="281000" />
+      <workItem from="1573851786366" duration="3934000" />
     </task>
     <task id="LOCAL-00001" summary="Added models to admin">
       <created>1569968456814</created>
@@ -181,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572043147503</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added view submission page">
+      <created>1572045571354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572045571354</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +216,7 @@
     <MESSAGE value="Added header template" />
     <MESSAGE value="added posts to frontpage" />
     <MESSAGE value="style edits, deleted submissions header file" />
-    <option name="LAST_COMMIT_MESSAGE" value="style edits, deleted submissions header file" />
+    <MESSAGE value="added view submission page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added view submission page" />
   </component>
 </project>

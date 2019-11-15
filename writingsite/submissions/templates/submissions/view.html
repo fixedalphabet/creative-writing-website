@@ -1,9 +1,29 @@
 {% extends 'frontpage/header.html' %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'frontpage/style.css' %}">
 
 {% block content %}
 
     This page is for viewing submissions. It should display the entire work and the comments.
 
     <h1>{{ submission.title }}</h1>
+    <h3>By: {{ submission.author.username }}</h3>
 
+    <div class="body">
+        {{ submission.content }}
+    </div>
+    <br>
+    <form action="{% url 'submissions/comment' submission_id=submission.id %}" method="post" id="commentForm">
+        {% csrf_token %}
+        <label for="text"><h2>Comments: </h2></label>
+        <textarea rows="10" cols="150" id="text" name="text">Leave a comment... </textarea>
+        <input type="submit" value="Submit Comment">
+    </form>
+
+    {% for comment in comments %}
+        <div class="comment">
+            <p>{{ comment.content }}</p>
+            <span>Posted by <b>{{ comment.author.username }}</b> on {{ comment.date_uploaded }}</span>
+        </div>
+    {% endfor %}
 {% endblock %}
